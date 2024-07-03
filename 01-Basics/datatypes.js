@@ -16,7 +16,41 @@ let isTrue=false
 //symbol => unique
 
 //object
+//function
+//array
 
 console.log(typeof undefined);
 console.log(typeof name);
 console.log(typeof null);
+
+
+// Primitive dataTypes :
+
+// String, number, Boolean , symbol, null, undefined, symbol
+
+
+// Reference dataTypes(Non-Primitive datatypes) :
+
+// Array, Objects, Functions
+
+const SagarFavourite =["Aaba", "Mummy", "Sai", "Ankita"]
+
+const Sagar_Portfolio = {
+    name :"Sagar",
+    age: 21,
+}
+const myFunc = function(){
+    console.log("hello world")
+}
+
+
+
+
+
+//*************************************Storage and Memory Allocation**************************************************************
+
+
+
+// primitive DT = Stack (When we call it , it provides copy of original value and when we change it the changes happend in copy)
+
+// non Primitive DT = heap (When we call it , it provides refrence of the original value, and the changes occur in original value.)
